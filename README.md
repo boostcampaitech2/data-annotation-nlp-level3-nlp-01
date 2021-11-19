@@ -3,7 +3,7 @@
 > 실제 머신러닝에서 중요한 파트인 NLP 데이터제작의 흐름을 이해하고 풀고자하는 형태에 맞게 데이터를 제작하는 프로젝트입니다.
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b08de381-f37b-4212-970b-d2cabf1bebe8/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b08de381-f37b-4212-970b-d2cabf1bebe8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211119T063919Z&X-Amz-Expires=86400&X-Amz-Signature=f2f6a4d6c63c84b6fc7b377052adcd570f15186f15c892ea07bf3eaa0bc0eb86&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - 해당 프로젝트에서는 **RE(Relation Entity) 데이터셋**을 제작하게 되었습니다.
 - 저희는 **'마블'** **위키피디아 데이터**를 주제로 RE Task를 진행하였습니다.
@@ -12,7 +12,7 @@
 
 # 프로젝트 진행과정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/adefc2e0-68c5-406b-a1c7-f79df65a6f4d/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/adefc2e0-68c5-406b-a1c7-f79df65a6f4d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211119T063902Z&X-Amz-Expires=86400&X-Amz-Signature=1c48a721ad2148c261d9dd348daf96d07cc56ccb040a6303925168754218a913&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ## 데이터 획득, 정제
 
@@ -47,7 +47,7 @@
 
 **'마블'**이라는 주제에 맞게 **Relation**(인물간 친족, 우호적 관계, 대립 관계, 사망 원인 등)**추출**을 진행하여 아래와 같이 스프레드 시트에 정리하였습니다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d97c7fe-b4eb-4324-9f74-c0d0f6f4752a/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d97c7fe-b4eb-4324-9f74-c0d0f6f4752a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211119T063939Z&X-Amz-Expires=86400&X-Amz-Signature=4290edacedca63f69c02a4bb5226162e5f5b92fc79c9d2d907f1cb81266694d2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - [Relation Map 링크](https://docs.google.com/spreadsheets/d/1qT36nWvTIGjNksaHCSqYIKk2Il0rdxVmjSKUlIYiOwc/edit#gid=0)
 
@@ -71,9 +71,7 @@
 - 전처리를 완료한 문장을 Tagtog에 업로드하여 작업을 진행하였습니다.
 - 각자 250문장가량을 작업하고, 작업이 완료된 후 해당파일을 추출하여 xlsx 파일로 변환하였습니다.
 
-![https://i.imgur.com/kPPY6f3.png](https://i.imgur.com/kPPY6f3.png)
-
-![https://i.imgur.com/HckxTqn.png](https://i.imgur.com/HckxTqn.png)
+---
 
 ![https://i.imgur.com/Y8iMFKN.png](https://i.imgur.com/Y8iMFKN.png)
 
@@ -93,19 +91,13 @@
     - *Fleiss' Kappa = 0.887*
 - 관계 레이블의 분포 / 문장 길이 분포 / Subj , Obj Entity 단어의 분포 / 문장 내 Entity 위치 분포의 적절성 평가
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e757525d-fc0b-4ead-af2b-93e40dd32fa8/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1f02628-a1dd-48be-b9b8-d9f49697cc1e/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e2ba2d6-008e-4ded-980f-01e98ea8e2da/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdb72ec6-2721-4ecd-b46f-84cb495a4ac8/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a1f02628-a1dd-48be-b9b8-d9f49697cc1e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211119T064027Z&X-Amz-Expires=86400&X-Amz-Signature=2ab4584182493ea3b5dc45c76521a5197cef29d40a1507127bbfa101f9ca143b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - 구축한 데이터를 Train / Test 셋으로 적절히 분배 후 간단한 모델의 학습 이후 분류 성능을 확인
 
 ### 모델 튜닝 및 성능 측정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/486c0ce5-b447-4f84-a405-a480b2598a7e/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/486c0ce5-b447-4f84-a405-a480b2598a7e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211119T064052Z&X-Amz-Expires=86400&X-Amz-Signature=ab3fce005d50cf94fd46d48957a2d7ed72c817b12da55680cc0739f76bdabce4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - *best eval micro f1 score:  86.2069*
 - *bset eval loss:  0.9085*
